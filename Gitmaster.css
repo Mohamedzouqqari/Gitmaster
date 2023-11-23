@@ -1,6 +1,936 @@
 body{
-    background-color: rgb(0, 0, 0);
-    height: 22em;
     width: 99%;
+    height: 100em;
+display: flex;
+background-color: beige;
 }
+
+
+main{
+    width:97%;
+height: 95em;
+background-color: white;
+} 
+
+
+
+section{
+display: flex;
+width: 54rem;
+height: 40em;
+padding: 6em;
+align-content: space-between;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: stretch;
+filter: brightness(0.8);
+}
+
+article{
+width: 18rem;
+    height: 10em;
+border-radius: 0 0 0 40px;
+display: block;
+background-color: rgba(1, 41, 112, 0.5);
+}
+
+
+img{
+    object-fit: cover;
+}
+
+
+.Image1{
+    width: 272px;
+    height: 19em;
+border-radius: 0 0 0 40px;
+display: block;}
+
+.Sanitaire{
+    display: inline-block;
+    z-index: auto;
+    height: 1em;
+    width: 17em;
+    background-color: orange;
+    color: white;
+position: absolute;
+bottom: 45em;
+font-size: .75em;
+padding: 1em;
+margin-left: 2em;
+border-radius: .3125rem;
+}
+
+.TSanitaire{
+    display: inline-block;
+    z-index: auto;
+    height: 1em;
+    width: 17em;
+    color: white;
+position: absolute;
+bottom: 41em;
+font-size: .75em;
+padding: 1em;
+margin-left: 2em;
+border-radius: .3125rem;
+}
+
+.Temps{
+   display: flex;
+    height: 5em;
+    width: 17em;
+    bottom: 27em;
+    z-index: 1;
+    position: absolute;
+flex-wrap: nowrap;
+}
+
+.Horloge{
+    padding: 10px;
+    height: 24px;
+}
+
+.Diplome1{
+    display: flex;
+    height: 5em;
+    width: 17em;
+    bottom: 25em;
+    z-index: 1;
+    position: absolute;
+flex-wrap: nowrap; 
+}
+
+.Logodiplome1{
+    padding: 10px;
+    height: 24px;
+}
+
+.pic1{
+    width: 17rem;
+    height: 19em;
+    display: block;
+    background-image: url(c:\Users\Zouqq\Downloads\Afec1.png);
+}
+
+
+
+
+.pic2{
+    width: 17rem;
+    height: 10em;  
+    background-image: url(c:\Users\Zouqq\Pictures\Afec exo\Afec2.jpg);
+}
+
+.Image2{
+    width: 272px;
+    height: 10em;
+border-radius: 0 0 0 40px;
+display: block;
+}
+
+.Sanitaire2{
+    display: inline-block;
+    z-index: auto;
+    height: 1em;
+    width: 17em;
+    background-color: orange;
+    color: white;
+position: absolute;
+bottom: 56em;
+font-size: .75em;
+padding: 1em;
+margin-left: 2em;
+border-radius: .3125rem;
+}
+
+
+.TSanitaire2{
+    display: inline-block;
+    z-index: auto;
+    height: 1em;
+    width: 17em;
+    color: white;
+position: absolute;
+bottom: 53em;
+font-size: .75em;
+padding: 1em;
+margin-left: 2em;
+border-radius: .3125rem;
+}
+
+.Temps2{
+    display: flex;
+     height: 5em;
+     width: 17em;
+     bottom: 36em;
+     z-index: 1;
+     position: absolute;
+ flex-wrap: nowrap;
+ }
+
+ .Horloge2{
+    padding: 10px;
+    height: 24px;
+}
+
+.Diplome2{
+    display: flex;
+    height: 2em;
+    width: 10em;
+    bottom: 37em;
+    z-index: 1;
+    position: absolute;
+flex-wrap: nowrap; 
+}
+
+
+
+
+
+
+
+
+
+.pic3{
+    width: 17rem;
+    height: 19em;
+}
+
+.Image3{
+    width: 272px;
+    height: 19em;
+border-radius: 0 0 0 40px;
+display: block;
+}
+
+.Sanitaire3{
+    display: inline-block;
+    z-index: auto;
+    height: 1em;
+    width: 18em;
+    background-color: orange;
+    color: white;
+position: absolute;
+bottom: 52em;
+font-size: .75em;
+padding: 1em;
+margin-left: 1em;
+border-radius: .3125rem;
+}
+
+.TSanitaire3{
+    display: inline-block;
+    z-index: auto;
+    height: 1em;
+    width: 17em;
+    color: white;
+position: absolute;
+bottom: 48em;
+font-size: .75em;
+padding: 1em;
+margin-left: 2em;
+border-radius: .3125rem;
+}
+
+.Temps3{
+   display: flex;
+    height: 5em;
+    width: 17em;
+    bottom: 31em;
+    z-index: 1;
+    position: absolute;
+flex-wrap: nowrap;
+}
+
+.Horloge3{
+    padding: 10px;
+    height: 24px;
+}
+
+.Diplome3{
+    display: flex;
+    height: 5em;
+    width: 17em;
+    bottom: 28em;
+    z-index: 1;
+    position: absolute;
+flex-wrap: nowrap; 
+color: black;
+}
+
+.Logodiplome3{
+    padding: 10px;
+    height: 24px;
+}
+
+
+
+
+
+.pic4{
+    width: 17rem;
+    height: 8em;
+margin-top: -20em;
+}
+
+.Image4{
+    width: 272px;
+    height: 9em;
+border-radius: 0 0 0 40px;
+display: block;
+}
+
+.Sanitaire4{
+    display: inline-block;
+    z-index: auto;
+    height: 1em;
+    width: 18em;
+    background-color: orange;
+    color: white;
+position: absolute;
+bottom: 31em;
+font-size: .75em;
+padding: 1em;
+margin-left: 1em;
+border-radius: .3125rem;
+}
+
+
+.TSanitaire4{
+    display: inline-block;
+    z-index: auto;
+    height: 1em;
+    width: 17em;
+    color: white;
+position: absolute;
+bottom: 28em;
+font-size: .75em;
+padding: 1em;
+margin-left: 1em;
+border-radius: .3125rem;
+}
+
+.Temps4{
+    display: flex;
+     height: 5em;
+     width: 17em;
+     bottom: 18em;
+     z-index: 1;
+     position: absolute;
+ flex-wrap: nowrap;
+ }
+
+ .Horloge4{
+    padding: 10px;
+    height: 24px;
+}
+
+.Diplome4{
+    display: flex;
+    height: 2em;
+    width: 10em;
+    bottom: 19em;
+    z-index: 1;
+    position: absolute;
+flex-wrap: nowrap; 
+}
+
+.Logodiplome4{
+height: 3em;
+width: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+.pic5{
+    width: 16rem;
+    height: 17em;
+    margin-top: -29em;
+}
+
+.Image5{
+    width: 256px;
+    height: 18em;
+border-radius: 0 0 0 40px;
+display: block;
+}
+
+.Sanitaire5{
+    display: inline-block;
+    z-index: auto;
+    height: 1em;
+    width: 17em;
+    background-color: orange;
+    color: white;
+position: absolute;
+bottom: 40em;
+font-size: .75em;
+padding: 1em;
+margin-left: 1em;
+border-radius: .3125rem;
+}
+
+
+.TSanitaire5{
+    display: inline-block;
+    z-index: auto;
+    height: 1em;
+    width: 17em;
+    color: white;
+position: absolute;
+bottom: 36em;
+font-size: .75em;
+padding: 1em;
+margin-left: 2em;
+border-radius: .3125rem;
+}
+
+.Temps5{
+    display: flex;
+     height: 5em;
+     width: 17em;
+     bottom: 21em;
+     z-index: 1;
+     position: absolute;
+ flex-wrap: nowrap;
+ }
+
+ .Horloge5{
+    padding: 10px;
+    height: 24px;
+}
+
+.Diplome5{
+    display: flex;
+    height: 2em;
+    width: 10em;
+    bottom: 20em;
+    z-index: 1;
+    position: absolute;
+flex-wrap: nowrap; 
+}
+
+
+
+
+
+.pic6{
+    width: 17rem;
+    height: 9em;
+margin-top: -20em;
+}
+.Image6{
+    width: 276px;
+    height: 9em;
+border-radius: 0 0 0 40px;
+display: block;
+}
+.Sanitaire6{
+    display: inline-block;
+    z-index: auto;
+    height: 1em;
+    width: 18em;
+    background-color: orange;
+    color: white;
+position: absolute;
+bottom: 31em;
+font-size: .75em;
+padding: 1em;
+margin-left: 1em;
+border-radius: .3125rem;
+}
+
+
+.TSanitaire6{
+    display: inline-block;
+    z-index: auto;
+    height: 1em;
+    width: 17em;
+    color: white;
+position: absolute;
+bottom: 28em;
+font-size: .75em;
+padding: 1em;
+margin-left: 1em;
+border-radius: .3125rem;
+}
+
+.Temps6{
+    display: flex;
+     height: 5em;
+     width: 17em;
+     bottom: 18em;
+     z-index: 1;
+     position: absolute;
+ flex-wrap: nowrap;
+ }
+
+ .Horloge6{
+    padding: 10px;
+    height: 24px;
+}
+
+.Diplome6{
+    display: flex;
+    height: 2em;
+    width: 10em;
+    bottom: 19em;
+    z-index: 1;
+    position: absolute;
+flex-wrap: nowrap; 
+}
+
+.Logodiplome6{
+height: 3em;
+width: 2em;
+}
+
+
+@media only screen and (min-width: 800px) and (max-width:1100px) {
+    
+    body{
+        background-color: white;
+        width: 99%;
+        height: 150em;
+       }
+    main{
+        width:102%;
+    height: 120em;
+    background-color: white;
+    } 
+   
+    section{
+    width: 50rem;
+    height: 105em;
+
+    }
+    article{
+        width: 52vw;
+            height: 19vh;
+        background-color: blue;
+        border-radius: 0 0 0 40px;
+    
+    }
+
+
+
+    .pic1{
+        width: 60rem;
+        height: 15em;
+        margin-top: 4em;
+    }
+
+    .Image1{
+        width: 50em;
+        height: 241px;
+    border-radius: 0 0 0 40px;
+    display: block;}
+
+
+.Sanitaire{
+    display: inline-block;
+    z-index: auto;
+    height: 1em;
+    width: 17em;
+    background-color: orange;
+    color: white;
+position: absolute;
+bottom: 139em;
+font-size: .75em;
+padding: 1em;
+margin-left: 2em;
+border-radius: .3125rem;
+}
+
+.TSanitaire{
+    display: inline-block;
+    z-index: auto;
+    height: 1em;
+    width: 17em;
+    color: rgb(14, 14, 14);
+position: absolute;
+bottom: 136em;
+font-size: .75em;
+padding: 1em;
+margin-left: 2em;
+border-radius: .3125rem;
+}
+
+.Temps{
+   display: flex;
+    height: 5em;
+    width: 17em;
+    bottom: 96em;
+    z-index: 1;
+    position: absolute;
+flex-wrap: nowrap;
+}
+
+.Horloge{
+    padding: 10px;
+    height: 24px;
+}
+
+.Diplome1{
+    display: flex;
+    height: 5em;
+    width: 17em;
+    bottom: 93em;
+    z-index: 1;
+    position: absolute;
+flex-wrap: nowrap; 
+}
+
+.Logodiplome1{
+    padding: 10px;
+    height: 24px;
+}
+
+
+
+
+
+
+    .pic2{
+        width: 60rem;
+        height: 15em;
+        margin-top: 4em;  
+    }
+
+    .Image2{
+        width: 50em;
+        height: 241px;
+    border-radius: 0 0 0 40px;
+    display: block;
+    }
+
+    .Sanitaire2{
+        display: inline-block;
+        z-index: auto;
+        height: 1em;
+        width: 17em;
+        background-color: orange;
+        color: white;
+    position: absolute;
+    bottom: 112em;
+    font-size: .75em;
+    padding: 1em;
+    margin-left: 2em;
+    border-radius: .3125rem;
+    }
+    
+    
+    .TSanitaire2{
+        display: inline-block;
+        z-index: auto;
+        height: 1em;
+        width: 17em;
+        color: white;
+    position: absolute;
+    bottom: 108em;
+    font-size: .75em;
+    padding: 1em;
+    margin-left: 2em;
+    border-radius: .3125rem;
+    }
+    
+    .Temps2{
+        display: flex;
+         height: 5em;
+         width: 17em;
+         bottom: 76em;
+         z-index: 1;
+         position: absolute;
+     flex-wrap: nowrap;
+     }
+    
+     .Horloge2{
+        padding: 10px;
+        height: 24px;
+    }
+    
+    .Diplome2{
+        display: flex;
+        height: 2em;
+        width: 10em;
+        bottom: 76em;
+        z-index: 1;
+        position: absolute;
+    flex-wrap: nowrap; 
+    }
+
+
+
+
+
+
+
+    .pic3{
+        width: 60rem;
+        height: 15em;
+        margin-top: 4em;
+    }
+
+    .Image3{
+        width: 50em;
+        height: 241px;
+    border-radius: 0 0 0 40px;
+    display: block;
+    }
+
+    .Sanitaire3{
+        display: inline-block;
+        z-index: auto;
+        height: 1em;
+        width: 18em;
+        background-color: orange;
+        color: white;
+    position: absolute;
+    bottom: 88em;
+    font-size: .75em;
+    padding: 1em;
+    margin-left: 1em;
+    border-radius: .3125rem;
+    }
+    
+    .TSanitaire3{
+        display: inline-block;
+        z-index: auto;
+        height: 1em;
+        width: 17em;
+        color: white;
+    position: absolute;
+    bottom: 84em;
+    font-size: .75em;
+    padding: 1em;
+    margin-left: 2em;
+    border-radius: .3125rem;
+    }
+    
+    .Temps3{
+       display: flex;
+        height: 5em;
+        width: 17em;
+        bottom: 58em;
+        z-index: 1;
+        position: absolute;
+    flex-wrap: nowrap;
+    }
+    
+    .Horloge3{
+        padding: 10px;
+        height: 24px;
+    }
+    
+    .Diplome3{
+        display: flex;
+        height: 5em;
+        width: 17em;
+        bottom: 55em;
+        z-index: 1;
+        position: absolute;
+    flex-wrap: nowrap; 
+    color: black;
+    }
+    
+    .Logodiplome3{
+        padding: 10px;
+        height: 24px;
+    }
+
+
+
+
+
+
+    .pic4{
+        width: 60rem;
+        height: 15em;
+        margin-top: 4em;
+    }
+    
+    .Image4{
+        width: 50em;
+        height: 241px;
+    border-radius: 0 0 0 40px;
+    display: block;
+    }
+
+    .Sanitaire4{
+        display: inline-block;
+        z-index: auto;
+        height: 1em;
+        width: 18em;
+        background-color: orange;
+        color: white;
+    position: absolute;
+    bottom: 62em;
+    font-size: .75em;
+    padding: 1em;
+    margin-left: 1em;
+    border-radius: .3125rem;
+    }
+    
+    
+    .TSanitaire4{
+        display: inline-block;
+        z-index: auto;
+        height: 1em;
+        width: 17em;
+        color: white;
+    position: absolute;
+    bottom: 58em;
+    font-size: .75em;
+    padding: 1em;
+    margin-left: 1em;
+    border-radius: .3125rem;
+    }
+    
+    .Temps4{
+        display: flex;
+         height: 5em;
+         width: 17em;
+         bottom: 39em;
+         z-index: 1;
+         position: absolute;
+     flex-wrap: nowrap;
+     }
+    
+     .Horloge4{
+        padding: 10px;
+        height: 24px;
+    }
+    
+    .Diplome4{
+        display: flex;
+        height: 2em;
+        width: 10em;
+        bottom: 39em;
+        z-index: 1;
+        position: absolute;
+    flex-wrap: nowrap; 
+    }
+    
+    .Logodiplome4{
+    height: 3em;
+    width: 2em;
+    }
+
+
+
+
+
+
+
+
+    .pic5{
+        width: 60rem;
+        height: 15em;
+        margin-top: 4em;
+    }
+
+    .Image5{
+        width: 50em;
+        height: 241px;
+    border-radius: 0 0 0 40px;
+    display: block;
+    }
+
+    .pic6{
+        width: 60rem;
+        height: 15em;
+        margin-top: 4em;
+    }
+
+    .Image6{
+        width: 50em;
+        height: 241px;
+    border-radius: 0 0 0 40px;
+    display: block;
+    }
+
+}
+
+
+
+
+@media (min-width: 390px) and (max-width:700px) {
+
+   
+   body{
+    background-color: white;
+    width: 99%;
+    height: 288em;
+   }
+   
+   
+    main{
+        width:102%;
+    height: 285em;
+    background-color: white;
+    }  
+    
+    section{
+    width: 50rem;
+    height: 307em;
+    }
+    article{
+        width: 60vw;
+            height: 39vh;
+        background-color: blue;
+        border-radius: 0 0 0 40px;
+        display: block;}
+
+
+        .pic1{
+            width: 60rem;
+            height: 39em;
+            margin-top: 5em;
+        }
+
+        .pic2{
+            width: 17rem;
+            height: 39em; 
+            margin-top: 5em; 
+        }
+        .pic3{
+            width: 60rem;
+            height: 39em;
+            margin-top: 5em;
+        }
+
+        .pic4{
+            width: 17rem;
+            height: 39em;
+            margin-top: 5em;
+        }
+        
+        .pic5{
+            width: 60rem;
+            height: 39em;
+            margin-top: 5em;
+        }
+    
+        .pic6{
+            width: 17rem;
+            height: 39em;
+            margin-top: 5em;
+
+        }
+    
+    }
+
+
+
+   
+
+
 
